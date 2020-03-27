@@ -1,0 +1,12 @@
+.deviceContent{
+  opacity:1
+ }
+ 
+ .deviceFill{
+  fill:#4d4d4d;
+ }
+ 
+ .deviceStroke{
+  stroke:#ccc;
+  stroke-width:2px;
+ }

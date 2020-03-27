@@ -1,0 +1,92 @@
+.svg-line-drawing {
+  width: 100%;
+}
+
+.svg-line-drawing .stroke-background {
+  stroke: #eddd3e;
+}
+
+.svg-line-drawing .stroke {
+  stroke: #12353C;
+}
+
+.svg-line-drawing .stroke-alt {
+  stroke: #ffffff;
+}
+
+.svg-line-drawing .stroke-width {
+  stroke-width: 2;
+}
+
+.svg-line-drawing .stroke-overlay {
+  stroke-width: 3;
+}
+
+.svg-line-drawing .linecap {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.rtl-magazine-animation .ani-fade-button,
+.rtl-magazine-animation .ani-move-page,
+.rtl-magazine-animation .ani-move-menu {
+  -webkit-animation-duration: 5500ms;
+    animation-duration: 5500ms;
+  -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+  -webkit-animation-delay: 100ms;
+    animation-delay: 100ms;
+  -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.rtl-magazine-animation .ani-fade-button {
+  -webkit-animation-name: fade-button;
+    animation-name: fade-button;
+}
+
+.rtl-magazine-animation .ani-move-page {
+  -webkit-animation-name: move-page;
+    animation-name: move-page;
+}
+
+.rtl-magazine-animation .ani-move-menu {
+  -webkit-animation-name: move-menu;
+    animation-name: move-menu;
+}
+
+@-webkit-keyframes fade-button {
+  0%, 12%, 100% { opacity: 0; }
+  9%, 11% { opacity: 1; }
+}
+
+@keyframes fade-button {
+  0%, 12%, 100% { opacity: 0; }
+  9%, 11% { opacity: 1; }
+}
+
+@-webkit-keyframes move-page {
+  0%, 14%, 100% { -webkit-transform: translateY(0px); -webkit-animation-timing-function: ease-in; }
+  28% { -webkit-transform: translateY(-220px); -webkit-animation-timing-function: linear; }
+  80%, 99.9999% { -webkit-transform: translateY(-680px); -webkit-animation-timing-function: linear; }
+}
+
+@keyframes move-page {
+  0%, 14%, 100% { transform: translateY(0px); animation-timing-function: ease-in; }
+  28% { transform: translateY(-220px); animation-timing-function: linear; }
+  80%, 99.9999% { transform: translateY(-680px); animation-timing-function: linear; }
+}
+
+@-webkit-keyframes move-menu {
+  0%, 14%, 100% { -webkit-transform: translateY(0px); -webkit-animation-timing-function: ease-in; }
+  28%, 68.6957% { -webkit-transform: translateY(-220px); -webkit-animation-timing-function: linear; }
+  80% { -webkit-transform: translateY(-320px); -webkit-animation-timing-function: linear; }
+  99.9999% { -webkit-transform: translateY(-680px); -webkit-animation-timing-function: linear; }
+}
+
+@keyframes move-menu {
+  0%, 14%, 100% { transform: translateY(0px); animation-timing-function: ease-in; }
+  28%, 68.6957% { transform: translateY(-220px); animation-timing-function: linear; }
+  80% { transform: translateY(-320px); animation-timing-function: linear; }
+  99.9999% { transform: translateY(-680px); animation-timing-function: linear; }
+}

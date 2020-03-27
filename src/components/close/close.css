@@ -1,0 +1,15 @@
+.arrow-middle-null, .arrow-left-null, .arrow-right-null {
+  position:absolute;
+}
+
+svg{
+   cursor:pointer;
+}
+.outline{
+  opacity:0;
+  
+}
+.outline-bg{
+  opacity:0.02;
+ 
+}
